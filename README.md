@@ -17,7 +17,7 @@ start IDL, and then
 
 to execute the simulation. Or so I think...its been a while.
 
-And to execute the simulations seen in Figs 7-8, descend into the pan_in_out folder
+And to execute the simulation seen in Figs 7-8, descend into the pan_in_out folder
 and repeat the above. Good luck!
 
 -jh
