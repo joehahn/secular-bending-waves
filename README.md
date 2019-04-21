@@ -5,7 +5,7 @@ jhahn@spacescience.org,<br />
 20 April 2019<br />
 git branch=master
 
-IDL code for simulating the spiral density waves described in Hahn, 2007, ApJ, 665, 856.
+IDL code for simulating the spiral bending waves described in Hahn, 2007, ApJ, 665, 856.
 That code was originally developed for a paper published in 2003. I myself no longer 
 have IDL running at my fingertips...hopefully this still runs 16 years later on your 
 more modern IDL install, fingers crossed.
