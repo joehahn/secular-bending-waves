@@ -1,4 +1,4 @@
-## secular-bending-waves
+## secular-waves
 
 by Joe Hahn,<br />
 jhahn@spacescience.org,<br />
