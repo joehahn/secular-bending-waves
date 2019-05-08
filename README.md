@@ -5,7 +5,11 @@ jhahn@spacescience.org,<br />
 20 April 2019<br />
 git branch=master
 
-IDL code for simulating the spiral bending waves described in Hahn, 2007, ApJ, 665, 856.
+
+### bending waves
+
+Descend into folder bending_waves to find the IDL code for simulating the 
+spiral bending waves that are described in Hahn, 2007, ApJ, 665, 856.
 That code was originally developed for a paper published in 2003. I myself no longer 
 have IDL running at my fingertips...hopefully this still runs 16 years later on your 
 more modern IDL install, fingers crossed.
@@ -15,9 +19,28 @@ start IDL, and then
 
     %run ring_master.pro
 
-to execute the simulation. Or so I think...its been a while.
+to execute the simulation. Or so I think...its been a while. Then
+
+    %run plot_system.pro
+
+to view the simulation output, and
+
+    %run paper_figs.pro
+
+to generate the plots seen in Figs 3-6. I think.
 
 And to execute the simulation seen in Figs 7-8, descend into the pan_in_out folder
 and repeat the above. Good luck!
+
+### density waves
+
+Enter the density_waves folder for the IDL code that simulates the spiral density waves
+described in Hahn, 2008, ApJ, 680, 1569, enter the outgoing_waves folder, and then
+
+    %run ring_master.pro
+    %run plot_system.pro
+    %run paper_figs.pro
+
+to generate the plots seen in Figs 3-6 of that paper. I think.
 
 -jh
