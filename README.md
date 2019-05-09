@@ -11,10 +11,11 @@ git branch=master
 Descend into folder bending_waves to find the IDL code for simulating the 
 spiral bending waves that are described in Hahn, 2007, ApJ, 665, 856;
 the code discussed there was developed in 2003 I think.
-I myself no longer have IDL running at my fingertips...hopefully this 
+I myself no longer have IDL running at my fingertips, hopefully this code 
 still runs 16 years later on your more modern IDL install, fingers crossed.
 
-To execute the simulation shown in Fig 4-6 of the 2007 paper, enter the outgoing_waves folder,
+To execute the simulation shown in Fig 4-6 of the 2007 paper, enter the 
+bending_waves/outgoing_waves folder,
 start IDL, and then
 
     %run ring_master.pro
@@ -35,8 +36,8 @@ and repeat the above. Good luck!
 
 ### density waves
 
-Enter the density_waves folder for the IDL code that simulates the spiral density waves
-described in Hahn, 2008, ApJ, 680, 1569, enter the outgoing_waves folder, and then
+Enter the density_waves/outgoing_waves folder for the IDL code that simulates the 
+spiral density waves described in Hahn, 2008, ApJ, 680, 1569, and then
 
     %run ring_master.pro
     %run plot_system.pro
@@ -48,7 +49,8 @@ to generate the plots seen in Figs 3-6 of that paper. I think.
 ### kuiper belt
 
 The above code was originally developed to study the waves that a young Neptune
-may have launched in a more massive primordial Kuiper Belt. I haven't yet found that
+may have launched in a more massive primordial Kuiper Belt, see 
+Hahn, 2003, ApJ, 595,531. I haven't yet found that
 simulation's initial conditions, but I did recover a nice animation of those
 results, see files in the kuiper_belt folder
 
