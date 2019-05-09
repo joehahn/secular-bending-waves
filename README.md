@@ -9,10 +9,10 @@ git branch=master
 ### bending waves
 
 Descend into folder bending_waves to find the IDL code for simulating the 
-spiral bending waves that are described in Hahn, 2007, ApJ, 665, 856.
-That code was originally developed for a paper published in 2003. I myself no longer 
-have IDL running at my fingertips...hopefully this still runs 16 years later on your 
-more modern IDL install, fingers crossed.
+spiral bending waves that are described in Hahn, 2007, ApJ, 665, 856;
+the code discussed there was developed in 2003 I think.
+I myself no longer have IDL running at my fingertips...hopefully this 
+still runs 16 years later on your more modern IDL install, fingers crossed.
 
 To execute the simulation shown in Fig 4-6 of the 2007 paper, enter the outgoing_waves folder,
 start IDL, and then
