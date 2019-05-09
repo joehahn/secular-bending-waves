@@ -32,6 +32,7 @@ to generate the plots seen in Figs 3-6. I think.
 And to execute the simulation seen in Figs 7-8, descend into the pan_in_out folder
 and repeat the above. Good luck!
 
+
 ### density waves
 
 Enter the density_waves folder for the IDL code that simulates the spiral density waves
@@ -42,5 +43,14 @@ described in Hahn, 2008, ApJ, 680, 1569, enter the outgoing_waves folder, and th
     %run paper_figs.pro
 
 to generate the plots seen in Figs 3-6 of that paper. I think.
+
+
+### kuiper belt
+
+The above code was originally developed to study the waves that a young Neptune
+may have launched in a more massive primordial Kuiper Belt. I haven't yet found that
+simulation's initial conditions, but I did recover a nice animation of those
+results, see files in the kuiper_belt folder
+
 
 -jh
